@@ -19,7 +19,7 @@ Naturally, this DIY route requires more technical know-how; but as cloud service
     - Parsec is the remote desktop software which streams key inputs from client to server, and video output from server to client
     - VB-Cable creates a virtual audio device essential for the server to transmit sound to the Parsec client
 3. Configure the instance as you like: install and log into Steam, change the Adminstrator password, etc.; then create an AMI from the instance
-    - 1 USD per hour is a reasonble price for cloud gaming (it is less than my local LAN shopes), but costs can add up if you leave an instance running while not using it (1 UDS hourly for 30 days is 720 USD)
+    - 1 USD per hour is a reasonble price for cloud gaming (it is less than my local LAN shopes), but costs can add up if you leave an instance running while not using it (1 USD hourly for 30 days is 720 USD)
     - So, EC2 instances should be terminated when you are done gaming
     - But it is inconvenient to start from the first step every time you want to game
     - So, it is advisable to save the state of the instance by creating an AMI from the fully-configured instance: in the future, instances can be spawned from that AMI, which is akin to loading the "saved state"
