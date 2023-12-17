@@ -1,5 +1,7 @@
 # A DIY Cloud Gaming Example with AWS
 
+_Update (2023-12-17): The NVIDIA-provided AMI image quoted in this post has been discontinued as of 2023-12-12. Similar AMI images with pre-installed drivers for the GPU of your chosen instance type should work in its place._
+
 ## Motivation
 
 Ready-made cloud gaming solutions are sparse.
